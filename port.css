@@ -7,33 +7,36 @@
 nav {
     display: flex;
     cursor: pointer;
-    color: #0a0a0a;
+    color: #fff;
+    border-radius: 1rem;
     min-width: 600px;
     font-size: 1.5rem;
     margin-right: 20%;
     align-self: center;
+    background-color: #0a0a0a;
     justify-content: space-around;
 }
 a {
-    color: black;
+    color: white;
     padding: 5px;
     border-radius: 20px;
+    text-decoration: none;
 }
 a:hover {
-    color: #faba;
+    color: navajowhite;
     border-style: outset;
-    text-decoration: dashed;
+    text-decoration: none;
     transition-duration: 10ms;
     transition-timing-function: ease-in-out;
 }
-/*
-a { animation: fadeIn 2s infinite}
+
+a { animation: fadeIn 5s infinite}
 @keyframes fadeIn {
     0%{opacity: 0; }    
     50%{opacity: 50;}    
     100%{opacity: 0;}
 }    
-*/
+
 /*Styling Content*/
 
 a::first-letter{
