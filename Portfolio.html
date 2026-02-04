@@ -3,71 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="port.css">
-    <title>Portfolio</title>
 </head>
 <body>
-    <div class="head">
-        <header>About Me</header>
-        <div class="text"><p>Hi!</p>
-            <p>My Name is <span>Matlhogonolo Mametse<br></span>
-                I am a software developer based in Gauteng. 3 years<br>
-                experience thrugh projects and subjects in University. 
-            </p><br>
-            <p><span>My Objective:</span> Challenge myself in a new environment to learn<br>
-                develop, improve my skills through different projects and contribute<br>
-                and more to the the company with my abilities</p>
-                <img src="IMG-20231020-WA0123.jpg" alt="">
-        </div>
+
+    <div class="main-container">
+        
+        <section class="top-section">
+            <div class="about-content">
+                <div class="title-badge">
+                    <h1>About me</h1>
+                </div>
+                
+                <div class="bio-text">
+                    <p><strong>Hi!</strong><br>
+                    My name is <span id="name">Matlhogonolo Mametse.</span><br>
+                    I am a Front-end developer based in Pretoria North, South African with experience through projects and subjects in university.</p>
+                    <br>
+                    <p>My objective: Challenge myself in a new environment to learn, develop, improve my skills through different projects and contribute more to the company with my abilities.</p>
+                </div>
+
+                <div class="contact-section">
+                    <h3>Contact</h3>
+                    <div class="contact-grid">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>emkaymametse@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>081 433 9117</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <span>linkedin.com/in/matlhogonolo-mametse</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fa-brands fa-github"></i>
+                            <span>https://github.com/HallowGhost21</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-image-container">
+                <div class="image-wrapper">
+                    <img src="IMG-20231020-WA0123.jpg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <section class="info-card">
+            
+            <div class="col-left">
+                <div class="section-block">
+                    <div class="flex-header">
+                        <h2>Education</h2>
+                        <span class="pill">2022 - 2025</span>
+                    </div>
+                    <p class="sub-text">Univeristy of Mpumalanga - Information in Communication Technology</p>
+                </div>
+
+                <div class="section-block">
+                    <h2>Programming Languages</h2>
+                    <div class="tech-grid">
+                        <div class="app-icon java">
+                            <i class="fa-brands fa-java"></i>
+                        </div>
+
+                        <div class="app-icon js">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+
+                        <div class="app-icon react">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+
+                        <div class="app-icon html">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+
+                        <div class="app-icon css">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-block">
+                    <h2>Interest</h2>
+                    <div class="list-row">
+                        <span>Design Trends</span>
+                        <span class="divider">|</span>
+                        <span>Technology</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-right">
+                <div class="section-block">
+                    <h2>Soft skill</h2>
+                    <div class="skill-list-grid">
+                        <div class="skill-pair">
+                            <span>Teamwork</span>
+                            <span class="v-divider"></span>
+                            <span>Critical Thinking</span>
+                        </div>
+                        <div class="skill-pair">
+                            <span>Communication</span>
+                            <span class="v-divider"></span>
+                            <span>Time Management</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-block">
+                    <h2>Skill set</h2>
+                    <div class="skill-list-grid">
+                        <div class="skill-pair">
+                            <span>User research</span>
+                            <span class="v-divider"></span>
+                            <span>Web Design</span>
+                        </div>
+                        <div class="skill-pair">
+                            <span>Wireframing</span>
+                            <span class="v-divider"></span>
+                            <span>App Design</span>
+                        </div>
+                        <div class="skill-pair">
+                            <span>Brainstorming</span>
+                            <span class="v-divider"></span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section-block">
+                    <h2>Language</h2>
+                    <div class="list-row">
+                        <span>Tswana</span>
+                        <span class="divider">|</span>
+                        <span>English (Fluent)</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </div>
-    <div class="contact">
-        <h3>Contact</h3>
-            <ul>
-                <li class="list"><i>emkaymametse@gmail.com</i></li>
-                <li class="list"><i>081 433 9117</i></li>
-                <li class="list"><i>https://github.com//HallowGhost21</i></li>
-                <li class="list"><i>https://linkdein.com/matlhogonolo-mametse</i></li>
-                <li class="list"><i></i></li>
-            </ul>
-    </div>
-    <button class="btn">Hover me</button>
-<hr>
-    <div class="background">
-        <div class="subtops">
-            <h1>Education</h1>
-            <p>University of Mpumalanga</p>
-        </div>
-        <div class="subtops">
-            <ul>
-                <li><i></i></li>
-                <li><i></i></li>
-                <li><i></i></li>
-                <li><i></i></li>
-                <li><i></i></li>
-            </ul>
-        </div>
-        <div class="subtops">
-            <h1>Interest</h1>
-            <p></p>
-            <p></p>
-        </div>
-        <div class="subtops">
-            <h1>Soft Skills</h1>
-            <p></p>
-            <p></p>
-        </div>
-        <div class="subtops">
-            <h1>Skill set</h1>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-        </div>
-        <div class="subtops">
-            <h1>Langauge</h1>
-            <p></p>
-            <p></p>
-        </div>
-    </div>
+
 </body>
 </html>
